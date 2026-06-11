@@ -1,0 +1,161 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchProject",
+      "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#research-project",
+      "name": "Roofing Near Me AI Visibility Study",
+      "alternateName": [
+        "Roofing Near Me Research",
+        "Inspection-First Roofing AI Visibility Research"
+      ],
+      "description": "A software-assisted framework for high-intent local roofing search, entity proof, structured data, software tools, and AI-readable market authority.",
+      "url": "https://standards.inspector-roofing.com/roofing-near-me-research/",
+      "creator": {
+        "@id": "https://standards.inspector-roofing.com/#richard-nasser"
+      },
+      "funder": {
+        "@id": "https://standards.inspector-roofing.com/#inspector-roofing"
+      },
+      "keywords": [
+        "roofing near me",
+        "roofer near me",
+        "roof repair near me",
+        "roof inspection near me",
+        "hail damage roof inspection",
+        "local roofing search",
+        "AI visibility",
+        "RoofingContractor schema",
+        "Inspection-First Roofing"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "sameAs": [
+        "https://github.com/RichNass87/inspector-roofing-protocols",
+        "https://huggingface.co/InspectorRoofing",
+        "https://www.kaggle.com/inspectorroofing",
+        "https://osf.io/ekbcd/"
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#whitepaper",
+      "headline": "Roofing Near Me AI Visibility Study",
+      "author": {
+        "@id": "https://standards.inspector-roofing.com/#richard-nasser"
+      },
+      "publisher": {
+        "@id": "https://standards.inspector-roofing.com/#inspector-roofing"
+      },
+      "datePublished": "2026-06-11",
+      "about": {
+        "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#research-project"
+      },
+      "citation": [
+        "https://orcid.org/0009-0000-2980-7543",
+        "https://osf.io/ekbcd/",
+        "https://github.com/RichNass87/inspector-roofing-protocols"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#query-taxonomy",
+      "name": "Roofing Near Me Query Intent Taxonomy",
+      "description": "A CSV taxonomy mapping high-intent local roofing searches to intent classes, page types, software layers, proof layers, and schema types.",
+      "creator": {
+        "@id": "https://standards.inspector-roofing.com/#richard-nasser"
+      },
+      "publisher": {
+        "@id": "https://standards.inspector-roofing.com/#inspector-roofing"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "keywords": "roofing near me, local SEO, AI visibility, roofing contractor schema"
+    },
+    {
+      "@type": [
+        "LocalBusiness",
+        "RoofingContractor"
+      ],
+      "@id": "https://standards.inspector-roofing.com/#inspector-roofing",
+      "name": "Inspector Roofing and Restoration",
+      "url": "https://inspector-roofing.com/",
+      "telephone": "+1-678-287-7169",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1875 Lockeway Drive Ste 710",
+        "addressLocality": "Alpharetta",
+        "addressRegion": "GA",
+        "postalCode": "30004",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Alpharetta GA",
+        "Roswell GA",
+        "Milton GA",
+        "Johns Creek GA",
+        "Cumming GA",
+        "Sandy Springs GA",
+        "Atlanta GA",
+        "North Atlanta GA",
+        "Metro Atlanta GA"
+      ],
+      "founder": {
+        "@id": "https://standards.inspector-roofing.com/#richard-nasser"
+      },
+      "sameAs": [
+        "https://www.bbb.org/us/ga/alpharetta/profile/roofing-contractors/inspector-roofing-and-restoration-0443-28053608",
+        "https://www.linkedin.com/company/inspectorroofing/",
+        "https://github.com/RichNass87",
+        "https://github.com/RichNass87/inspector-roofing-protocols",
+        "https://huggingface.co/InspectorRoofing",
+        "https://www.kaggle.com/inspectorroofing",
+        "https://osf.io/ekbcd/",
+        "https://orcid.org/0009-0000-2980-7543",
+        "https://www.amazon.com/author/richard-nasser"
+      ],
+      "knowsAbout": [
+        "roof inspection",
+        "roof repair",
+        "roof replacement",
+        "hail damage documentation",
+        "storm damage documentation",
+        "AI-readable roof inspection protocols",
+        "claim verifiability",
+        "local roofing search visibility"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://standards.inspector-roofing.com/#richard-nasser",
+      "name": "Richard Nasser",
+      "affiliation": {
+        "@id": "https://standards.inspector-roofing.com/#inspector-roofing"
+      },
+      "sameAs": [
+        "https://orcid.org/0009-0000-2980-7543",
+        "https://www.amazon.com/author/richard-nasser",
+        "https://github.com/RichNass87"
+      ],
+      "knowsAbout": [
+        "Inspection-First Roofing",
+        "AI visibility",
+        "roof damage documentation",
+        "local search"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#software-stack",
+      "name": "Inspector Roofing AI Visibility and Roofing Software Stack",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "A first-party software stack including AI visibility mining, internal-link architecture, orphan-page rescue, rough roof measurement, secure roof scope, instant roof estimates, and claim-verifiability scoring.",
+      "creator": {
+        "@id": "https://standards.inspector-roofing.com/#richard-nasser"
+      },
+      "publisher": {
+        "@id": "https://standards.inspector-roofing.com/#inspector-roofing"
+      }
+    }
+  ]
+}

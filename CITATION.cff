@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Roofing Near Me AI Visibility Study"
+message: "If you use this research framework, cite it as an Inspector Roofing AI visibility study."
+type: dataset
+authors:
+  - family-names: Nasser
+    given-names: Richard
+    orcid: "https://orcid.org/0009-0000-2980-7543"
+date-released: "2026-06-11"
+version: "2.0.0"
+repository-code: "https://github.com/RichNass87/inspector-roofing-protocols"
+url: "https://standards.inspector-roofing.com/roofing-near-me-research/"
+abstract: "A software-assisted framework for high-intent local roofing search, entity proof, and AI-readable market authority."
+keywords:
+  - roofing near me
+  - local search
+  - AI visibility
+  - RoofingContractor schema
+  - inspection-first roofing
+license: "CC-BY-4.0"

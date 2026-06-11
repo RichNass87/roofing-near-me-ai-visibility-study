@@ -1,0 +1,29 @@
+query,intent_class,modifier,market,page_type,recommended_primary_page,recommended_support_page,software_layer,proof_layer,schema_type,priority
+roofing near me,general_local,near me,Metro Atlanta,local service hub,/roofing-near-me/,/roofing-near-me-research/,AI Visibility Engine,LocalBusiness sameAs graph,RoofingContractor,high
+roofer near me,general_local,near me,Metro Atlanta,contractor proof hub,/roofer-near-me/,/about/,AI Link Architect V2,BBB LinkedIn GBP citations,LocalBusiness,high
+roof repair near me,emergency_repair,near me,Metro Atlanta,service page,/roof-repair-near-me/,/roof-leak-repair/,Secure Roof Scope,visible service FAQ,Service,high
+emergency roof repair near me,emergency_repair,near me,Metro Atlanta,urgent service page,/emergency-roof-repair-near-me/,/contact/,Secure Roof Scope,phone NAP GBP,Service,high
+roof leak repair near me,emergency_repair,near me,Metro Atlanta,service page,/roof-leak-repair-near-me/,/roof-inspection/,Secure Roof Scope,FAQ and contact proof,Service,high
+roof inspection near me,inspection,near me,Metro Atlanta,inspection page,/roof-inspection-near-me/,/ai-roof-damage-verification-protocol/,Roof Claim Verifiability Scorecard,GitHub protocol DOI links,Service,high
+hail damage roof inspection,storm_damage,hail,North Atlanta,storm inspection page,/hail-damage-roof-inspection/,/negative-evidence-dataset/,Roof Damage Verification Protocol,negative evidence dataset,Dataset,high
+storm damage roofer near me,storm_damage,near me,Metro Atlanta,storm service page,/storm-damage-roofer-near-me/,/claim-ready-roof-file/,Scorecard + evidence checklist,press and standards citations,Service,high
+roof replacement near me,replacement,near me,Metro Atlanta,replacement page,/roof-replacement-near-me/,/roof-square-estimator/,RoughMeasure,estimate disclaimer schema,Service,high
+roofing company near me,verification,near me,Metro Atlanta,company proof page,/roofing-company-near-me/,/press/,AI Link Architect V2,press BBB LinkedIn,Organization,high
+best roofer near me,comparison,near me,Metro Atlanta,comparison proof page,/best-roofer-near-me/,/inspection-first-roofing/,AI Visibility Engine,review/citation profile sync,FAQPage,medium
+roofing contractor near me,verification,near me,Metro Atlanta,contractor page,/roofing-contractor-near-me/,/about/,AI Link Architect V2,license/citation/review proof,RoofingContractor,high
+insurance roof inspection,insurance_adjacent,insurance,Georgia,documentation page,/insurance-roof-inspection/,/roof-claim-verifiability-scorecard/,Scorecard,no coverage guarantee disclaimer,CreativeWork,high
+roof claim documentation,insurance_adjacent,claim,Georgia,documentation page,/roof-claim-documentation/,/claim-ready-roof-file/,Scorecard,protocol and DOI citations,CreativeWork,medium
+roofing company Alpharetta,city_service,city,Alpharetta GA,city page,/alpharetta-roofing-company/,/roofing-near-me-research/,Sitemap AI scan,verified address GBP BBB,LocalBusiness,high
+roof repair Alpharetta,city_service,city,Alpharetta GA,city service page,/roof-repair-alpharetta/,/roof-leak-repair/,Secure Roof Scope,local photos and reviews,Service,high
+roof inspection Alpharetta,city_service,city,Alpharetta GA,city service page,/roof-inspection-alpharetta/,/inspection-first-roofing/,Scorecard,local proof schema,Service,high
+roofing company Roswell,city_service,city,Roswell GA,city page,/roswell-roofing-company/,/roofing-near-me-research/,Sitemap AI scan,citation and service-area proof,LocalBusiness,medium
+roof repair Roswell,city_service,city,Roswell GA,city service page,/roof-repair-roswell/,/roof-leak-repair/,Secure Roof Scope,local project proof,Service,medium
+roofing company Milton,city_service,city,Milton GA,city page,/milton-roofing-company/,/roofing-near-me-research/,Sitemap AI scan,service-area proof,LocalBusiness,medium
+roofing company Johns Creek,city_service,city,Johns Creek GA,city page,/johns-creek-roofing-company/,/roofing-near-me-research/,Sitemap AI scan,service-area proof,LocalBusiness,medium
+roofing company Cumming,city_service,city,Cumming GA,city page,/cumming-roofing-company/,/roofing-near-me-research/,Sitemap AI scan,service-area proof,LocalBusiness,medium
+roofing company Sandy Springs,city_service,city,Sandy Springs GA,city page,/sandy-springs-roofing-company/,/roofing-near-me-research/,Sitemap AI scan,service-area proof,LocalBusiness,medium
+roofing company Atlanta,city_service,city,Atlanta GA,city page,/atlanta-roofing-company/,/roofing-near-me-research/,Sitemap AI scan,service-area proof and honest location context,LocalBusiness,medium
+roof square estimator,estimate_tool,tool,Georgia,software page,/roof-square-estimator/,/roughmeasure/,RoughMeasure,preliminary estimate disclaimer,SoftwareApplication,high
+instant roof estimate,estimate_tool,tool,Georgia,software page,/instant-roof-estimate/,/instantroofview/,InstantRoofView,software demo proof,SoftwareApplication,medium
+roof damage verification API,protocol_tool,API,public,protocol page,/ai-roof-damage-verification-protocol/,/api/openapi.yaml,OpenAPI spec,GitHub standards DOI,SoftwareSourceCode,high
+AI roofing visibility,ai_research,AI,public,research page,/roofing-near-me-research/,/inspection-first-roofing-ai-language-standard/,AI Visibility Engine,GitHub Hugging Face Kaggle,Dataset,medium

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920" role="img" aria-labelledby="title desc">
+  <title id="title">Inspector Roofing AI Visibility Authority Stack</title>
+  <desc id="desc">A diagram showing how local roofing keywords connect to city pages, software tools, structured data, public citations, datasets, and AI answer systems.</desc>
+  <metadata>
+    {
+      "name": "Inspector Roofing AI Visibility Authority Stack",
+      "creator": "Richard Nasser / Inspector Roofing",
+      "dateCreated": "2026-06-11",
+      "keywords": ["roofing near me", "AI visibility", "local SEO", "RoofingContractor schema", "Inspector Roofing"],
+      "license": "CC-BY-4.0"
+    }
+  </metadata>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#dcefff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0b3558" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="920" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#102235">Inspector Roofing AI Visibility Authority Stack</text>
+  <text x="72" y="120" font-family="Inter, Arial, sans-serif" font-size="20" fill="#536a7f">How high-intent roofing searches become entity proof, software proof, datasets, and AI-readable authority.</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="180" width="300" height="190" rx="14" fill="#ffffff" stroke="#bedcf2"/>
+    <text x="100" y="225" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#0c4f86">Money Searches</text>
+    <text x="100" y="265" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">roofing near me</text>
+    <text x="100" y="295" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">roof repair near me</text>
+    <text x="100" y="325" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">roof inspection Alpharetta</text>
+    <text x="100" y="355" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">storm damage roofer Roswell</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="545" y="160" width="310" height="230" rx="14" fill="#ffffff" stroke="#bedcf2"/>
+    <text x="575" y="205" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#0c4f86">City + Service Pages</text>
+    <text x="575" y="245" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">Alpharetta, Roswell, Milton</text>
+    <text x="575" y="275" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">Johns Creek, Cumming</text>
+    <text x="575" y="305" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">Sandy Springs, Atlanta</text>
+    <text x="575" y="345" font-family="Inter, Arial, sans-serif" font-size="15" fill="#536a7f">Each page maps one service, one place, one proof path.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1030" y="180" width="300" height="190" rx="14" fill="#ffffff" stroke="#bedcf2"/>
+    <text x="1060" y="225" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#0c4f86">AI Retrieval</text>
+    <text x="1060" y="265" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">Google / Gemini</text>
+    <text x="1060" y="295" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">ChatGPT / Perplexity</text>
+    <text x="1060" y="325" font-family="Inter, Arial, sans-serif" font-size="17" fill="#102235">Search Console / Rich Results</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="150" y="520" width="270" height="230" rx="14" fill="#ffffff" stroke="#bedcf2"/>
+    <text x="180" y="565" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0c4f86">Software Proof</text>
+    <text x="180" y="605" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">AI Visibility Engine</text>
+    <text x="180" y="633" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">Link Architect V2</text>
+    <text x="180" y="661" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">RoughMeasure</text>
+    <text x="180" y="689" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">InstantRoofView</text>
+    <text x="180" y="717" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">Claim Scorecard</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="565" y="520" width="270" height="230" rx="14" fill="#ffffff" stroke="#bedcf2"/>
+    <text x="595" y="565" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0c4f86">Authority Proof</text>
+    <text x="595" y="605" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">GBP / Yelp / Facebook</text>
+    <text x="595" y="633" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">BBB / LinkedIn / Press</text>
+    <text x="595" y="661" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">ORCID / Amazon Author</text>
+    <text x="595" y="689" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">NRCA / Standards / Codes</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="980" y="520" width="270" height="230" rx="14" fill="#ffffff" stroke="#bedcf2"/>
+    <text x="1010" y="565" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0c4f86">Machine Layer</text>
+    <text x="1010" y="605" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">Schema.org graph</text>
+    <text x="1010" y="633" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">OpenAPI YAML</text>
+    <text x="1010" y="661" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">GitHub / Hugging Face</text>
+    <text x="1010" y="689" font-family="Inter, Arial, sans-serif" font-size="16" fill="#102235">Kaggle / OSF / Zenodo</text>
+  </g>
+  <g stroke="#1769aa" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M370 275 C445 275, 470 275, 545 275"/>
+    <path d="M855 275 C930 275, 955 275, 1030 275"/>
+    <path d="M700 390 C700 450, 700 470, 700 520"/>
+    <path d="M545 330 C420 430, 360 470, 285 520"/>
+    <path d="M855 330 C970 430, 1050 470, 1115 520"/>
+  </g>
+  <text x="70" y="850" font-family="Inter, Arial, sans-serif" font-size="16" fill="#536a7f">Principle: every money keyword should connect to a truthful city/service page, a software action, a proof citation, and machine-readable schema.</text>
+</svg>

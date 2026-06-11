@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://standards.inspector-roofing.com/schemas/roofing-near-me-research.schema.json",
+  "title": "Roofing Near Me AI Visibility Study Record",
+  "description": "A validation schema for records that map high-intent local roofing searches to page types, software layers, proof layers, and structured data.",
+  "type": "object",
+  "required": [
+    "query",
+    "intentClass",
+    "market",
+    "pageType",
+    "recommendedPrimaryPage",
+    "softwareLayer",
+    "proofLayer",
+    "schemaType",
+    "priority"
+  ],
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "The homeowner search phrase being studied."
+    },
+    "intentClass": {
+      "type": "string",
+      "enum": [
+        "general_local",
+        "emergency_repair",
+        "inspection",
+        "storm_damage",
+        "replacement",
+        "verification",
+        "comparison",
+        "insurance_adjacent",
+        "city_service",
+        "estimate_tool",
+        "protocol_tool",
+        "ai_research"
+      ]
+    },
+    "modifier": {
+      "type": "string",
+      "description": "Near-me, city, service, storm, insurance, tool, or API modifier."
+    },
+    "market": {
+      "type": "string"
+    },
+    "pageType": {
+      "type": "string"
+    },
+    "recommendedPrimaryPage": {
+      "type": "string"
+    },
+    "recommendedSupportPage": {
+      "type": "string"
+    },
+    "softwareLayer": {
+      "type": "string"
+    },
+    "proofLayer": {
+      "type": "string"
+    },
+    "schemaType": {
+      "type": "string",
+      "examples": [
+        "RoofingContractor",
+        "LocalBusiness",
+        "Service",
+        "Dataset",
+        "SoftwareApplication",
+        "CreativeWork",
+        "FAQPage"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
