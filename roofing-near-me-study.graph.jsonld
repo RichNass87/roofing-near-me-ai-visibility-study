@@ -11,6 +11,12 @@
       ],
       "description": "A software-assisted framework for high-intent local roofing search, entity proof, structured data, software tools, and AI-readable market authority.",
       "url": "https://standards.inspector-roofing.com/roofing-near-me-research/",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.5281/zenodo.20650542",
+        "url": "https://doi.org/10.5281/zenodo.20650542"
+      },
       "creator": {
         "@id": "https://standards.inspector-roofing.com/#richard-nasser"
       },
@@ -47,10 +53,17 @@
         "@id": "https://standards.inspector-roofing.com/#inspector-roofing"
       },
       "datePublished": "2026-06-11",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.5281/zenodo.20650542",
+        "url": "https://doi.org/10.5281/zenodo.20650542"
+      },
       "about": {
         "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#research-project"
       },
       "citation": [
+        "https://doi.org/10.5281/zenodo.20650542",
         "https://orcid.org/0009-0000-2980-7543",
         "https://osf.io/ekbcd/",
         "https://github.com/RichNass87/inspector-roofing-protocols"

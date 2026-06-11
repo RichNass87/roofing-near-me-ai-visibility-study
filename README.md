@@ -24,6 +24,8 @@ This dataset card documents a public research dataset for classifying high-inten
 
 The dataset is designed for AI visibility research, local search strategy, content planning, and structured-data testing. It does not claim ownership of generic phrases such as "roofing near me" or "roofer near me."
 
+DOI: https://doi.org/10.5281/zenodo.20650542
+
 ## Dataset Files
 
 - `query-intent-taxonomy.csv` - search query, intent class, city/near-me modifier, page type, software layer, proof layer, schema type, and priority.
@@ -33,6 +35,7 @@ The dataset is designed for AI visibility research, local search strategy, conte
 - `marketing-strategy-map.jsonl` - GBP, Yelp, Facebook, internal-link, software, and dataset strategy records.
 - `owned-language-term-bank.csv` - branded term definitions and money-keyword bridges.
 - `technology-traction-plan.csv` - technology surface, asset, traction function, implementation step, success metric, and risk control.
+- `keyword-ontology-map.csv` - scientific keyword-coded ontology connecting query tokens, intent, territory, owned terms, proof artifacts, and schema.
 - `roofing-near-me-research.schema.json` - JSON Schema for validating study records.
 - `roofing-near-me-study.graph.jsonld` - JSON-LD graph for standards-site publication.
 

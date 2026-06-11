@@ -10,7 +10,7 @@
 ## 2. Hugging Face
 
 - Create dataset: `InspectorRoofing/roofing-near-me-ai-visibility-study`.
-- Upload `query-intent-taxonomy.csv`, `local-search-signals.jsonl`, `software-stack-map.csv`, `territory-keyword-map.csv`, `marketing-strategy-map.jsonl`, `owned-language-term-bank.csv`, `technology-traction-plan.csv`, and the dataset card.
+- Upload `query-intent-taxonomy.csv`, `local-search-signals.jsonl`, `software-stack-map.csv`, `territory-keyword-map.csv`, `marketing-strategy-map.jsonl`, `owned-language-term-bank.csv`, `technology-traction-plan.csv`, `keyword-ontology-map.csv`, and the dataset card.
 - Add tags for local search, roofing, schema.org, and AI visibility.
 
 ## 3. Kaggle
@@ -65,6 +65,7 @@ Request indexing for:
 ## 9. Zenodo DOI Loop
 
 - Keep Zenodo enabled for public research/software repositories.
+- Current DOI for this study: `10.5281/zenodo.20650542`.
 - Add or update `CITATION.cff`.
 - Create a GitHub release after meaningful updates.
 - Add the DOI badge to the README.
