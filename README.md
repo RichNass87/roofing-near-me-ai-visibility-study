@@ -19,7 +19,17 @@ task_categories:
 ---
 
 # Roofing Near Me AI Visibility Study
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20650542.svg)](https://doi.org/10.5281/zenodo.20650542)
 
+## DOI, Repository, and Media Links
+
+- Canonical DOI: https://doi.org/10.5281/zenodo.20650542
+- Study repository: https://github.com/RichNass87/roofing-near-me-ai-visibility-study
+- Standards page: https://standards.inspector-roofing.com/roofing-near-me-research/
+- YouTube explainer: https://www.youtube.com/watch?v=PZEGGrhGsV4
+- Spotify audio / podcast: PASTE_SPOTIFY_URL_HERE
+- Apple Music / Apple Podcasts: PASTE_APPLE_URL_HERE
+- Book ISBN: 9798181285156
 This dataset card documents a public research dataset for classifying high-intent local roofing searches and mapping them to page types, schema, proof layers, and software actions.
 
 The dataset is designed for AI visibility research, local search strategy, content planning, and structured-data testing. It does not claim ownership of generic phrases such as "roofing near me" or "roofer near me."
