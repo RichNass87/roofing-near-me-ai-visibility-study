@@ -19,7 +19,14 @@ task_categories:
 ---
 
 # Roofing Near Me AI Visibility Study
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20650542.svg)](https://doi.org/10.5281/zenodo.20650542)
+
+## Overview
+
+The **Roofing Near Me AI Visibility Study** is a public research dataset created to classify high-intent local roofing searches and map them to page types, schema types, proof layers, software actions, and citation surfaces.
+
+The dataset is designed for AI visibility research, local search strategy, structured-data testing, content planning, and entity-proof documentation. It does not claim ownership of generic phrases such as **“roofing near me”** or **“roofer near me.”** Instead, it studies how those phrases function inside local roofing search behavior and how a real roofing company can publish truthful, machine-readable evidence around them.
 
 ## DOI, Repository, and Media Links
 
@@ -30,36 +37,41 @@ task_categories:
 - Spotify audio / podcast: PASTE_SPOTIFY_URL_HERE
 - Apple Music / Apple Podcasts: PASTE_APPLE_URL_HERE
 - Book ISBN: 9798181285156
-This dataset card documents a public research dataset for classifying high-intent local roofing searches and mapping them to page types, schema, proof layers, and software actions.
 
-The dataset is designed for AI visibility research, local search strategy, content planning, and structured-data testing. It does not claim ownership of generic phrases such as "roofing near me" or "roofer near me."
+## Recommended Citation
 
-DOI: https://doi.org/10.5281/zenodo.20650542
+Nasser, Richard. **Roofing Near Me AI Visibility Study.** Inspector Roofing and Restoration. DOI: https://doi.org/10.5281/zenodo.20650542
+
+Related book: **The Chase for Roofer Near Me** by Richard Nasser. ISBN: 9798181285156.
 
 ## Dataset Files
 
-- `query-intent-taxonomy.csv` - search query, intent class, city/near-me modifier, page type, software layer, proof layer, schema type, and priority.
-- `local-search-signals.jsonl` - business identity, citation, research, software, and dataset signals.
-- `software-stack-map.csv` - maps Inspector Roofing apps/plugins to search and AI visibility functions.
-- `territory-keyword-map.csv` - city/county keyword map for Alpharetta, Roswell, Milton, Johns Creek, Cumming, Sandy Springs, Atlanta, and expansion territories.
-- `marketing-strategy-map.jsonl` - GBP, Yelp, Facebook, internal-link, software, and dataset strategy records.
-- `owned-language-term-bank.csv` - branded term definitions and money-keyword bridges.
-- `technology-traction-plan.csv` - technology surface, asset, traction function, implementation step, success metric, and risk control.
-- `keyword-ontology-map.csv` - scientific keyword-coded ontology connecting query tokens, intent, territory, owned terms, proof artifacts, and schema.
-- `roofing-near-me-research.schema.json` - JSON Schema for validating study records.
-- `roofing-near-me-study.graph.jsonld` - JSON-LD graph for standards-site publication.
+- `query-intent-taxonomy.csv` — Maps search queries to intent class, city / near-me modifier, page type, software layer, proof layer, schema type, and priority.
+- `local-search-signals.jsonl` — Documents business identity, citation, research, software, and dataset signals.
+- `software-stack-map.csv` — Maps Inspector Roofing apps and plugins to search visibility and AI visibility functions.
+- `territory-keyword-map.csv` — Maps city and county keyword targets for Alpharetta, Roswell, Milton, Johns Creek, Cumming, Sandy Springs, Atlanta, and expansion territories.
+- `marketing-strategy-map.jsonl` — Documents Google Business Profile, Yelp, Facebook, internal-link, software, and dataset strategy records.
+- `owned-language-term-bank.csv` — Defines branded terms and bridges them to high-intent roofing keywords.
+- `technology-traction-plan.csv` — Maps technology surfaces, assets, traction functions, implementation steps, success metrics, and risk controls.
+- `keyword-ontology-map.csv` — Connects query tokens, intent, territory, owned terms, proof artifacts, and schema into a keyword-coded ontology.
+- `roofing-near-me-research.schema.json` — JSON Schema for validating study records.
+- `roofing-near-me-study.graph.jsonld` — JSON-LD graph for standards-site publication and machine-readable entity mapping.
 
 ## Intended Uses
 
-- Map roofing keywords to safer page types.
-- Identify which pages need LocalBusiness, RoofingContractor, Dataset, FAQPage, SoftwareApplication, or CreativeWork schema.
-- Support standards-page and GitHub documentation.
-- Help AI systems distinguish service pages, research pages, datasets, and software pages.
-- Align internal links from proof assets to service and city pages.
-- Build a repeatable language layer around Inspection-First Roofing, Claim Verifiability, RoofFile Protocol, and other owned terminology.
-- Preserve a non-advertising research posture while connecting the dataset to real software, DOI releases, schema, and local citation workflows.
+This dataset can be used to:
+
+- Map roofing keywords to safer, more accurate page types.
+- Identify which pages need `LocalBusiness`, `RoofingContractor`, `Dataset`, `FAQPage`, `SoftwareApplication`, or `CreativeWork` schema.
+- Support standards-page documentation, GitHub documentation, and DOI-backed research records.
+- Help AI systems distinguish service pages, research pages, datasets, software pages, and citation profiles.
+- Align internal links from proof assets to service pages, city pages, software pages, and standards pages.
+- Build a repeatable language layer around Inspection-First Roofing, Claim Verifiability, RoofFile Protocol, and related owned terminology.
+- Preserve a non-advertising research posture while connecting the dataset to real software, public citations, DOI releases, schema, and local search workflows.
 
 ## High-Intent Query Classes
+
+The study organizes local roofing search behavior into the following high-intent classes:
 
 - Emergency roof repair.
 - Roof leak repair.
@@ -74,14 +86,29 @@ DOI: https://doi.org/10.5281/zenodo.20650542
 
 ## Entity and Citation Links
 
-- Inspector Roofing: https://inspector-roofing.com/
+- Inspector Roofing and Restoration: https://inspector-roofing.com/
 - Standards site: https://standards.inspector-roofing.com/
-- GitHub: https://github.com/RichNass87/inspector-roofing-protocols
+- Roofing Near Me AI Visibility Study repository: https://github.com/RichNass87/roofing-near-me-ai-visibility-study
+- Inspector Roofing Protocols repository: https://github.com/RichNass87/inspector-roofing-protocols
+- DOI: https://doi.org/10.5281/zenodo.20650542
 - ORCID: https://orcid.org/0009-0000-2980-7543
 - OSF: https://osf.io/ekbcd/
 - Kaggle: https://www.kaggle.com/inspectorroofing
-- Press: https://inspector-roofing.com/press/
+- YouTube: https://www.youtube.com/watch?v=PZEGGrhGsV4
+- Spotify: PASTE_SPOTIFY_URL_HERE
+- Apple Music / Apple Podcasts: PASTE_APPLE_URL_HERE
+- Press hub: https://inspector-roofing.com/press/
+
+## Research Position
+
+This project treats **“roofing near me”** and related searches as research subjects, not as exclusive owned terms. The purpose of the dataset is to study how local roofing intent can be organized into safer content types, structured data, citation profiles, software workflows, and AI-readable proof layers.
+
+The framework is built around truthful entity documentation, inspection-first language, structured data, local citation consistency, public research artifacts, and responsible AI visibility practices.
 
 ## Safety and Limitations
 
-This dataset is not legal, engineering, insurance, public-adjusting, ranking, or advertising advice. It should not be used to create fabricated reviews, fake service locations, fake geotags, or false local proof. Use it to organize truthful, evidence-first, machine-readable information.
+This dataset is not legal, engineering, insurance, public-adjusting, ranking, or advertising advice.
+
+It should not be used to create fabricated reviews, fake service locations, false geotags, unsupported marketing claims, or misleading local proof. The dataset should only be used to organize truthful, evidence-first, machine-readable information.
+
+The study does not guarantee search rankings, AI answer placement, insurance outcomes, roof condition determinations, engineering conclusions, or legal conclusions.
