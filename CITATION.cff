@@ -7,13 +7,14 @@ authors:
     given-names: Richard
     orcid: "https://orcid.org/0009-0000-2980-7543"
 date-released: "2026-06-11"
-version: "2.0.0"
-repository-code: "https://github.com/RichNass87/inspector-roofing-protocols"
+version: "2.1.0"
+repository-code: "https://github.com/RichNass87/roofing-near-me-ai-visibility-study"
 url: "https://standards.inspector-roofing.com/roofing-near-me-research/"
 doi: "10.5281/zenodo.20650542"
 abstract: "A software-assisted framework for high-intent local roofing search, entity proof, and AI-readable market authority."
 keywords:
   - roofing near me
+  - roofer near me
   - local search
   - AI visibility
   - RoofingContractor schema
