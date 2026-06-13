@@ -21,7 +21,13 @@ task_categories:
 # Roofing Near Me AI Visibility Study
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20650542.svg)](https://doi.org/10.5281/zenodo.20650542)
+## DOI and Live Documentation Note
 
+The canonical DOI for this study remains:
+
+https://doi.org/10.5281/zenodo.20650542
+
+This repository may include live documentation, schema, citation-link, and media-link updates after the original DOI release. These metadata and documentation updates do not create a new Zenodo DOI version unless a new Zenodo version or GitHub Release is published.
 ## Overview
 
 The **Roofing Near Me AI Visibility Study** is a public research dataset created to classify high-intent local roofing searches and map them to page types, schema types, proof layers, software actions, and citation surfaces.
