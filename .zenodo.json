@@ -1,0 +1,50 @@
+{
+  "title": "Roofing Near Me AI Visibility Study",
+  "upload_type": "dataset",
+  "description": "A software-assisted framework for high-intent local roofing search, entity proof, structured data, software tools, public citation surfaces, and AI-readable market authority.",
+  "creators": [
+    {
+      "name": "Nasser, Richard",
+      "orcid": "0009-0000-2980-7543",
+      "affiliation": "Inspector Roofing and Restoration"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "2.1.0",
+  "keywords": [
+    "roofing near me",
+    "roofer near me",
+    "local search",
+    "AI visibility",
+    "schema.org",
+    "RoofingContractor schema",
+    "inspection-first roofing",
+    "Inspector Roofing"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/RichNass87/roofing-near-me-ai-visibility-study",
+      "relation": "isDocumentedBy"
+    },
+    {
+      "identifier": "https://standards.inspector-roofing.com/roofing-near-me-research/",
+      "relation": "isDocumentedBy"
+    },
+    {
+      "identifier": "https://www.youtube.com/watch?v=PZEGGrhGsV4",
+      "relation": "isDocumentedBy"
+    },
+    {
+      "identifier": "PASTE_SPOTIFY_URL_HERE",
+      "relation": "isDocumentedBy"
+    },
+    {
+      "identifier": "PASTE_APPLE_MUSIC_OR_APPLE_PODCASTS_URL_HERE",
+      "relation": "isDocumentedBy"
+    }
+  ],
+  "references": [
+    "Nasser, Richard. The Chase for Roofer Near Me. ISBN 9798181285156.",
+    "Nasser, Richard. Roofing Near Me AI Visibility Study. DOI: 10.5281/zenodo.20650542."
+  ]
+}
