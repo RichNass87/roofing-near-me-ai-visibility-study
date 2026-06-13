@@ -2,8 +2,9 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://standards.inspector-roofing.com/schemas/roofing-near-me-research.schema.json",
   "title": "Roofing Near Me AI Visibility Study Record",
-  "description": "A validation schema for records that map high-intent local roofing searches to page types, software layers, proof layers, and structured data.",
+  "description": "A validation schema for records in the Roofing Near Me AI Visibility Study. Each record maps a high-intent local roofing search phrase to its intent class, market, recommended page type, software layer, proof layer, structured-data type, and research priority.",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "query",
     "intentClass",
@@ -18,10 +19,19 @@
   "properties": {
     "query": {
       "type": "string",
-      "description": "The homeowner search phrase being studied."
+      "minLength": 2,
+      "description": "The homeowner search phrase being studied.",
+      "examples": [
+        "roofing near me",
+        "roofer near me",
+        "roof repair near me",
+        "roof inspection Alpharetta",
+        "hail damage roof inspection"
+      ]
     },
     "intentClass": {
       "type": "string",
+      "description": "The primary search-intent category represented by the query.",
       "enum": [
         "general_local",
         "emergency_repair",
@@ -35,53 +45,232 @@
         "estimate_tool",
         "protocol_tool",
         "ai_research"
+      ],
+      "examples": [
+        "general_local",
+        "inspection",
+        "storm_damage",
+        "estimate_tool"
       ]
     },
     "modifier": {
       "type": "string",
-      "description": "Near-me, city, service, storm, insurance, tool, or API modifier."
+      "description": "The phrase modifier that changes the query context, such as near-me, city, service, storm, insurance, software, API, or research modifier.",
+      "examples": [
+        "near me",
+        "Alpharetta",
+        "hail damage",
+        "insurance documentation",
+        "estimate tool",
+        "API"
+      ]
     },
     "market": {
-      "type": "string"
+      "type": "string",
+      "minLength": 2,
+      "description": "The geographic or service-market context for the query.",
+      "examples": [
+        "Alpharetta GA",
+        "Roswell GA",
+        "Milton GA",
+        "Johns Creek GA",
+        "Cumming GA",
+        "Metro Atlanta GA",
+        "General service area"
+      ]
     },
     "pageType": {
-      "type": "string"
+      "type": "string",
+      "description": "The recommended type of web page, dataset page, software page, or standards page that should answer the query.",
+      "examples": [
+        "service_page",
+        "city_page",
+        "inspection_page",
+        "storm_damage_page",
+        "software_tool_page",
+        "research_page",
+        "dataset_page",
+        "faq_page",
+        "protocol_page"
+      ]
     },
     "recommendedPrimaryPage": {
-      "type": "string"
+      "type": "string",
+      "minLength": 2,
+      "description": "The primary page or asset that should satisfy the search intent.",
+      "examples": [
+        "Roofing service hub",
+        "Roof repair service page",
+        "Roof inspection page",
+        "Alpharetta roofing page",
+        "Roofing Near Me AI Visibility Study page",
+        "InstantRoofView estimate tool"
+      ]
+    },
+    "recommendedPrimaryPageUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional canonical URL for the recommended primary page.",
+      "examples": [
+        "https://inspector-roofing.com/",
+        "https://standards.inspector-roofing.com/roofing-near-me-research/"
+      ]
     },
     "recommendedSupportPage": {
-      "type": "string"
+      "type": "string",
+      "description": "A secondary page, proof asset, standards page, dataset, or citation surface that supports the primary page.",
+      "examples": [
+        "Inspection-First Roofing standard",
+        "RoofFile Protocol page",
+        "Press hub",
+        "BBB profile",
+        "GitHub repository",
+        "Zenodo DOI record"
+      ]
+    },
+    "recommendedSupportPageUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional URL for the recommended support page or proof asset.",
+      "examples": [
+        "https://github.com/RichNass87/roofing-near-me-ai-visibility-study",
+        "https://doi.org/10.5281/zenodo.20650542"
+      ]
     },
     "softwareLayer": {
-      "type": "string"
+      "type": "string",
+      "description": "The software, plugin, app, API, or workflow layer connected to the query.",
+      "examples": [
+        "AI Visibility Engine",
+        "AI Link Architect",
+        "InstantRoofView",
+        "RoughMeasure",
+        "Secure Roof Scope",
+        "Roof Claim Verifiability Scorecard",
+        "OpenAPI Protocol Spec",
+        "No software layer required"
+      ]
     },
     "proofLayer": {
-      "type": "string"
+      "type": "string",
+      "description": "The evidence, citation, schema, dataset, review, standards, or public proof layer that supports the page recommendation.",
+      "examples": [
+        "LocalBusiness schema",
+        "RoofingContractor schema",
+        "Google Business Profile",
+        "BBB profile",
+        "GitHub repository",
+        "Zenodo DOI",
+        "OSF project",
+        "Kaggle dataset",
+        "Hugging Face dataset",
+        "Press citation",
+        "Inspection-first protocol"
+      ]
     },
     "schemaType": {
       "type": "string",
-      "examples": [
+      "description": "The primary Schema.org type recommended for the page, dataset, software asset, or proof surface.",
+      "enum": [
         "RoofingContractor",
         "LocalBusiness",
         "Service",
         "Dataset",
         "SoftwareApplication",
         "CreativeWork",
-        "FAQPage"
+        "ScholarlyArticle",
+        "ResearchProject",
+        "FAQPage",
+        "ProfilePage",
+        "Organization",
+        "Person",
+        "WebPage",
+        "Article",
+        "VideoObject",
+        "AudioObject"
+      ],
+      "examples": [
+        "RoofingContractor",
+        "LocalBusiness",
+        "Dataset",
+        "SoftwareApplication",
+        "ResearchProject"
       ]
     },
     "priority": {
       "type": "string",
+      "description": "The publishing or optimization priority for this record.",
       "enum": [
         "low",
         "medium",
         "high"
+      ],
+      "examples": [
+        "high"
       ]
     },
+    "citationLinks": {
+      "type": "array",
+      "description": "Optional public citation, DOI, media, repository, dataset, or entity-proof links connected to the record.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "url",
+          "relationship"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "description": "Human-readable name of the citation or proof surface.",
+            "examples": [
+              "Canonical DOI",
+              "Study GitHub repository",
+              "YouTube explainer",
+              "Spotify audio",
+              "Apple Podcasts",
+              "Standards page"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Public URL for the citation or proof surface.",
+            "examples": [
+              "https://doi.org/10.5281/zenodo.20650542",
+              "https://github.com/RichNass87/roofing-near-me-ai-visibility-study",
+              "https://www.youtube.com/watch?v=PZEGGrhGsV4"
+            ]
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How the citation link relates to the study record.",
+            "enum": [
+              "canonical",
+              "documents",
+              "supports",
+              "explains",
+              "cites",
+              "references",
+              "sameAs",
+              "subjectOf",
+              "relatedMedia",
+              "relatedDataset",
+              "relatedSoftware"
+            ],
+            "examples": [
+              "canonical",
+              "documents",
+              "subjectOf"
+            ]
+          }
+        }
+      }
+    },
     "notes": {
-      "type": "string"
+      "type": "string",
+      "description": "Optional implementation notes, risk controls, content guidance, or limitations for this record."
     }
-  },
-  "additionalProperties": false
+  }
 }
