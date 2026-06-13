@@ -34,8 +34,6 @@ The dataset is designed for AI visibility research, local search strategy, struc
 - Study repository: https://github.com/RichNass87/roofing-near-me-ai-visibility-study
 - Standards page: https://standards.inspector-roofing.com/roofing-near-me-research/
 - YouTube explainer: https://www.youtube.com/watch?v=PZEGGrhGsV4
-- Spotify audio / podcast: PASTE_SPOTIFY_URL_HERE
-- Apple Music / Apple Podcasts: PASTE_APPLE_URL_HERE
 - Book ISBN: 9798181285156
 
 ## Recommended Citation
