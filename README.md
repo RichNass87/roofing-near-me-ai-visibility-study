@@ -1,3 +1,7 @@
+## Latest Updates
+**June 16, 2026:** Official press release published outlining this research stack and *The Chase for Roofer Near Me*. 
+* Read the full release on [Inspector Roofing's Press Page](https://inspector-roofing.com/press/)
+* Or view the original wire release on [EIN Presswire](insert-the-live-ein-link-here-once-it-publishes).
 ---
 license: cc-by-4.0
 language:
