@@ -23,6 +23,10 @@ task_categories:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20650542.svg)](https://doi.org/10.5281/zenodo.20650542)
 
 ## 📰 Latest Updates
+
+**June 17, 2026:** The visibility study’s official announcement has successfully syndicated to high-authority legal and trade domains, generating major AI validation signals.
+* Read the syndicated release on the [National Law Review](https://natlawreview.com/press-releases/alpharetta-roofing-founder-turns-roofer-near-me-public-ai-visibility-study).
+
 **June 16, 2026:** Official press release published outlining this research stack and *The Chase for Roofer Near Me*. 
 * Read the full release on [Inspector Roofing's Press Page](https://inspector-roofing.com/press/)
 * View the original wire release on [EIN Presswire](https://www.einpresswire.com/article/920015110/alpharetta-roofing-founder-turns-roofer-near-me-into-a-public-ai-visibility-study).
