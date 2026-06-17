@@ -1,9 +1,3 @@
-<h2>Latest Updates</h2>
-<p><strong>June 16, 2026:</strong> Official press release published outlining this research stack and <em>The Chase for Roofer Near Me</em>.</p>
-<ul>
-  <li>Read the full release on <a href="https://inspector-roofing.com/press/">Inspector Roofing's Press Page</a></li>
-  <li>Or view the original wire release on <a href="insert-the-live-ein-link-here">EIN Presswire</a>.</li>
-</ul>
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -45,18 +39,10 @@
           "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#research-project"
         },
         "about": [
-          {
-            "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#research-project"
-          },
-          {
-            "@id": "https://inspector-roofing.com/#organization"
-          },
-          {
-            "@id": "https://inspector-roofing.com/richard-nasser/#person"
-          },
-          {
-            "@id": "https://github.com/RichNass87/roofing-near-me-ai-visibility-study#source-repository"
-          }
+          { "@id": "https://standards.inspector-roofing.com/roofing-near-me-research/#research-project" },
+          { "@id": "https://inspector-roofing.com/#organization" },
+          { "@id": "https://inspector-roofing.com/richard-nasser/#person" },
+          { "@id": "https://github.com/RichNass87/roofing-near-me-ai-visibility-study#source-repository" }
         ],
         "sameAs": [
           "https://standards.inspector-roofing.com/roofing-near-me-research/",
@@ -347,8 +333,9 @@
       isolation: isolate;
     }
 
-    #roofing-near-me-ai-visibility-study,
-    #roofing-near-me-ai-visibility-study * {
+    #roofing-near-me-ai-visibility-study *,
+    #roofing-near-me-ai-visibility-study *::before,
+    #roofing-near-me-ai-visibility-study *::after {
       box-sizing: border-box;
     }
 
@@ -363,6 +350,7 @@
       margin: 0 auto;
     }
 
+    /* Hero Section */
     #roofing-near-me-ai-visibility-study .irnm-hero {
       padding: 66px 0 48px;
       border-bottom: 1px solid var(--line);
@@ -430,6 +418,33 @@
       font-weight: 700;
     }
 
+    /* Update Banner Integration */
+    #roofing-near-me-ai-visibility-study .irnm-update-banner {
+      background: #e3f2fd;
+      border: 1px solid #90caf9;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 12px rgba(13, 71, 161, 0.05);
+    }
+    
+    #roofing-near-me-ai-visibility-study .irnm-update-banner h2 {
+      font-size: 20px;
+      color: #0d47a1;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+    
+    #roofing-near-me-ai-visibility-study .irnm-update-banner ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    #roofing-near-me-ai-visibility-study .irnm-update-banner li {
+      margin-bottom: 6px;
+    }
+
+    /* Layout & Sections */
     #roofing-near-me-ai-visibility-study .irnm-main {
       padding: 34px 0 72px;
     }
@@ -476,6 +491,7 @@
       padding: 14px 16px;
     }
 
+    /* Mirror Box */
     #roofing-near-me-ai-visibility-study .irnm-mirror-box {
       margin-top: 28px;
       border: 1px solid #a9cbe8;
@@ -498,6 +514,7 @@
       margin-top: 10px;
     }
 
+    /* Buttons */
     #roofing-near-me-ai-visibility-study .irnm-button {
       display: inline-flex;
       align-items: center;
@@ -518,6 +535,7 @@
       color: var(--accent-dark) !important;
     }
 
+    /* Tables */
     #roofing-near-me-ai-visibility-study .irnm-table {
       overflow-x: auto;
       margin-top: 16px;
@@ -551,6 +569,7 @@
       border-bottom: 0;
     }
 
+    /* Lists */
     #roofing-near-me-ai-visibility-study .irnm-links {
       columns: 2;
       column-gap: 42px;
@@ -632,6 +651,16 @@
 
   <div class="irnm-main">
     <div class="irnm-wrap">
+
+      <!-- Embedded Latest Updates Section -->
+      <div class="irnm-update-banner">
+        <h2>Latest Updates</h2>
+        <p><strong>June 16, 2026:</strong> Official press release published outlining this research stack and <em>The Chase for Roofer Near Me</em>.</p>
+        <ul>
+          <li>Read the full release on <a href="https://inspector-roofing.com/press/">Inspector Roofing's Press Page</a></li>
+          <li>Or view the original wire release on <a href="https://www.einpresswire.com/article/920015110/alpharetta-roofing-founder-turns-roofer-near-me-into-a-public-ai-visibility-study">EIN Presswire</a>.</li>
+        </ul>
+      </div>
 
       <div class="irnm-section">
         <h2>Research Position</h2>
@@ -955,4 +984,3 @@
 </section>
 </body>
 </html>
-```
